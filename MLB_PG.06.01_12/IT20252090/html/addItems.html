@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" >
+	<title> Vehicle Rental </title>
+	<script src="../js/HomePageClock.js"></script>
+</head>
+
+<div class="clock" id ="clock">00:00:00</div>
+<div class="clock">
+<script>
+	var d = new Date();
+	var x = d.toLocaleDateString();
+	document.write(x);
+	</script>
+</div>
+
+<h2 form class="namefont"><center>ABC Vehicle Rental Pvt.ltd</center></h2>
+
+<body>
+
+
+   <img class="logo" src="../images/car.png" style="float:left;" width=100 height=80 > 
+   <img class="login" src="../images/user.png" style="float:right" width="100" height="100" >
+   <button class="login1" style="float:right" width=100 height=100  onclick="location.href='../../IT20135966/html/login.html';">  Log in   </button>
+
+<ul class="menu" ">
+
+	<h2 align="center">
+	  <li class="menu"> <a href="../../IT20252090/html/home.html"> Home </a></li>
+      <li class="menu"> <a href="../../IT20252090/html/VehicleFleet.html"> Vehicle Fleet </a> </li>
+      <li class="menu"> <a href="../../IT20139858/html/Payment.html"> Payment </a> </li>
+      <li class="menu"> <a href="../../IT20139544/html/Services.html"> Service </a> </li>
+      <li class="menu"> <a href="../../IT20135966/html/New_register.html"> Register</a> </li>
+      <li class="menu"> <a href="../../IT20137632/html/About.html"> About </a> </li>
+      <li class="menu"> <a href="../../IT20137632/html/Contactus.html"> Contact Us </a> </li>
+	</h2>
+</ul>
+ 
+<br>
+ 
+<div class="layout">
+	<button class="bttn1" type="button" id="btn1" onclick="location.href='../../IT20139544/html/Booking.html';">Booking</button>
+	<button class="bttn1" type="button" id="btn1" onclick="location.href='../../IT20139858/html/feedback.html';">Feedback</button>
+		
+<table border="1" bgcolor="white" align="center" width="40%">
+
+<tr> <td bgcolor="yellow" align="center"> ADD NEW VEHICLE </td> </tr>
+
+<tr> <td>  
+
+<form method="POST" target="../php/submitaAddItems.php" action="../php/submitaAddItems.php" onsubmit="return checkPassword()">
+    <br>
+	 Vehicle ID:<br>
+	 <input type="text" id="vehicle_id" name="vehicle_id" style="width:500px;" required " placeholder="Enter vehicle ID"><br><br>
+	 
+	 Vehicle Name:<br>
+	 <input type="text" id="vehicle_name" name="vehicle_name" style="width:500px;" placeholder="Enter vehicle name"><br><br>
+     
+	 Charges for 100KM:<br>
+	 <input type="text" id="vehicle_preday" name="vehicle_preday" style="width:500px;"  placeholder="Rs"><br><br>
+	 
+	 Charges for Excess mileage:
+	 <input type="text" id="vehicle_exmileage" name="vehicle_exmileage" style="width:500px;"  placeholder="Rs"><br><br>
+	 
+	 <input type="submit" value="Save">
+	 <input type="reset" value="Reset">
+
+</td> </tr>
+
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<div class="footer">
+	<div class="footer1">
+		<button class="bttn2" type="button" ><a href="https://www.facebook.com/login/"><img src="../images/a.png"  height="40" width="40"></a> </button>
+		<button class="bttn2" type="button" ><a href="hhttps://twitter.com/login?lang=en"><img src="../images/c.png"  height="40" width="40"></a></button>
+		<button class="bttn2" type="button" ><a href="https://www.instagram.com/accounts/login/?hl=en"><img src="../images/b.png"  height="40" width="40"></a></button>
+		<button class="bttn2" type="button" ><a href="https://plus.google.com/104559524250872217906"><img src="../images/d.png" height="40" width="40"></a></button>
+	</div>
+	<div class="footer2">
+		<button class="bttn3" type="button" ><img src="../images/e.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/f.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/g.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/h.png" height="40" width="40"></button>
+	</div>
+</div>
+
+</body>
+</html>

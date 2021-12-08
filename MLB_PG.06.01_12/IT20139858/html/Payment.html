@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/style.css" >
+<script  src="../js/Jsfile.js"> </script>
+<title> Payment </title>
+
+</head>
+
+<h2 class="font2"><center>ABC Vehicle Rental Pvt.ltd</center></h2>
+
+
+<img class="login" src="../images/user.png" style="float:right" width="100" height="100" >
+<img class="logo" src="../images/cars.JPG" style="float:left;" width=100 height=80 > 
+<button class="login1" style="float:right" width=100 height=100 onclick="location.href='../../IT20135966/html/login.html';">  Log in  </button>
+<ul class="menu">
+
+<h2>
+      <li class="menu"> <a href="../../IT20252090/html/home.html"> Home </a></li>
+      <li class="menu"> <a href="../../IT20252090/html/VehicleFleet.html"> Vehicle Fleet </a> </li>
+      <li class="menu"> <a href="../../IT20139858/html/Payment.html"> Payment </a> </li>
+      <li class="menu"> <a href="../../IT20139544/html/Services.html"> Service </a> </li>
+      <li class="menu"> <a href="../../IT20135966/html/New_register.html"> Register</a> </li>
+      <li class="menu"> <a href="../../IT20137632/html/About.html"> About </a> </li>
+      <li class="menu"> <a href="../../IT20137632/html/Contactus.html"> Contact Us </a> </li>
+
+</h2>
+</ul>
+<div class="layout">
+		<button class="bttn1" type="button" id="btn1" onclick="location.href='';">Booking</button>
+		<button class="bttn1" type="button" id="btn1" onclick="location.href='feedback.html';">Feedback</button>
+</div>
+<h2 form class="font" align="right">Find vehicle by tracker</h2>
+<button class="bttn2" type="button" ><a href="https://www.google.lk/maps"><img src="../images/map.JPG" align="right" height="200" 
+width="250"></a> </button>
+</div>
+
+</div>
+
+<center> 
+<table bgcolor="transparent" border="2" align="right" width="60%">
+<tr>
+<th>
+
+<form class="font" action="../php/viewpayment.php" target="viewpayment.php" method="POST" onsubmit="return checkPassword()">
+ <h3> Select your payment method </h3>
+  
+	 
+<img src="../images/e.png"  height="50" width="60"></button>  <input type="radio" id="payment" name="ctype" value="visacard"></button> 
+<img src="../images/f.png"  height="50" width="60"></button>  <input type="radio" id="payment" name="ctype" value="mastercard"></button> 
+<img src="../images/g.png"  height="50" width="60"></button>  <input type="radio" id="payment" name="ctype" value="americanexpress"></button> 
+<img src="../images/h.png"  height="50" width="60"></button>  <input type="radio" id="payment" name="ctype" value="discovercard"></button>
+ 
+ <br>
+
+     <label> Card Holder Name </label> <br>
+	 <input type="text" id="fname" name="fname" style="width:350px;"  placeholder="Enter card holder name here" required >  <br><br>
+     
+	 Card Number <br>
+	 <input type="text" id="crdnum" name="crdnum" style="width:350px;" pattern="[0-9]{10}"  placeholder="Enter your card number here" required >  <br><br>
+	  
+	 CVC Number <br>
+	 <input  type="password" id="cvc" name="cvc" style="width:350px;"   placeholder="Enter your card PIN number here" required > <br> <br>
+	 ReEnter CVC Number <br>
+	 <input  type="password" id="recvc" name="recvc" style="width:350px;"  placeholder="ReEnter your card PIN number here" required > <br> <br> 
+     Exp. month:<select name="expMonth">
+        <option>MONTH</option>	 
+	    <option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+	 </select>
+	 
+	   
+          Exp. year:<select name="expYear">
+		  <option>YEAR</option>	
+	    <option value="2020">2020</option>
+		<option value="2021">2021</option>
+		<option value="2022">2022</option>
+		<option value="2023">2023</option>
+	 </select>
+	 <input type="submit" id="button1" name="button1" value="SUBMIT"  >  
+	 <br><br><br><br>
+	 
+</th>
+</tr>	
+</form>
+</div>
+
+</div>
+</center>
+
+
+<div class="footer">
+
+
+<div class="layout2">
+		<button class="bttn2" type="button" ><a href="https://www.facebook.com/login/"><img src="../images/a.png"  height="40" width="40"></a> </button>
+		<button class="bttn2" type="button" ><a href="hhttps://twitter.com/login?lang=en"><img src="../images/c.png"  height="40" width="40"></a></button>
+		<button class="bttn2" type="button" ><a href="https://www.instagram.com/accounts/login/?hl=en"><img src="../images/b.png"  height="40" width="40"></a></button>
+		<button class="bttn2" type="button" ><a href="https://accounts.google.com/"><img src="../images/d.png" height="40" width="40"></a></button>
+</div>
+<div class="layout3">
+		<button class="bttn3" type="button" ><img src="../images/e.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/f.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/g.png"  height="40" width="40"></button>
+		<button class="bttn3" type="button" ><img src="../images/h.png" height="40" width="40"></button>
+</div>
+</div>
+</div>
+</body>
+</html>
