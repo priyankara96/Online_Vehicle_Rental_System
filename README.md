@@ -27,7 +27,7 @@ ABC Vehicle Rental Pvt.Ltd is a web application designed to provide vehicles wit
 
  <h2>Contributors</h2>
   
-  1.	Athapaththu A.H.M.C.P.(IT20252090)
+  1.	Athapaththu A.H.M.C.P. (IT20252090)
   2.	Gunasinghe P.S.L.  (IT20139858)
   3.	Gunasekara A.M.P.P. (IT20135966)
   4.	Kapukotuwa S.A.A.H. (IT20139544)
