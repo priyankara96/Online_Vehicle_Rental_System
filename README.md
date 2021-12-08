@@ -20,10 +20,10 @@ ABC Vehicle Rental Pvt.Ltd is a web application designed to provide vehicles wit
 
 <h3> Technologies : <h3>
 
-- HTML
-- CSS
-- PHP
-- JavaScipt
+####- HTML
+####- CSS
+####- PHP
+####- JavaScipt
 
  <h2>Contributors</h2>
   
