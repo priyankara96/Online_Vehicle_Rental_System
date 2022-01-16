@@ -18,7 +18,7 @@ ABC Vehicle Rental Pvt.Ltd is a web application designed to provide vehicles wit
 
   <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMVUgKFiKT25ukYh3TzwXdAY9nD9oB4RtMZpuGT-j1SZ6OGf28dkFyqdti6VKXvl0xk4&usqp=CAU" width="200" height="85" /> 
 
-<h3>Tools :</h3>  
+<h3>Technologies :</h3>  
 
 - HTML
 - CSS
